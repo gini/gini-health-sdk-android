@@ -1,5 +1,5 @@
-Gini Pay Business SDK for Android
-===============================
+![Gini Health SDK for Android](./logo.png)
+
 Gini Health SDK for Android
 ===========================
 
