@@ -54,5 +54,4 @@ Gini Pay API Client Credentials
 
 You should have received Gini Pay API client credentials from us. Please get in touch with us in case you don't have them.
 
-Continue to `Authentication <authentication.html>`_ to see how to use the client credentials to initialize the Gini Pay
-Business SDK.
+Continue to `Authentication <authentication.html>`_ to see how to use the client credentials to initialize the Gini Health SDK.

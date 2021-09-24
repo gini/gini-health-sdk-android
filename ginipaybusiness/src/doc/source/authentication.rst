@@ -1,7 +1,7 @@
 Authentication
 ==============
 
-The entry point for Business SDK is ``GiniBusiness`` class which depends
+The entry point for the Gini Health SDK is ``GiniBusiness`` class which depends
 on ``Gini`` (Gini Pay API lib) to interact with the backend.
 
 The ``Gini`` class can be built either with client credentials (clientId and clientSecret)

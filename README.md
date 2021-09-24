@@ -1,5 +1,7 @@
-Gini Pay Business SDK for Android
-===============================
+![Gini Health SDK for Android](./logo.png)
+
+Gini Health SDK for Android
+===========================
 
 Installation
 ------------
@@ -28,9 +30,9 @@ dependencies {
 Example Apps
 ---
 
-### Business
+### Health
 
-The bussiness example app is in the `:app` module. 
+The health example app is in the `:app` module. 
 It needs `app/src/main/resources/client.properties` with credentials:
 ```
 clientId=*******
@@ -48,5 +50,5 @@ An example bank app is available in the Gini Pay Bank SDK's
 
 ## License
 
-Gini Pay Business SDK is available under a commercial license.
+Gini Health SDK is available under a commercial license.
 See the LICENSE file for more info.

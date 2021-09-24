@@ -7,7 +7,7 @@ Requirements
 Example banking app
 ~~~~~~~~~~~~~~~~~~~
 
-To pass the requirements for the Gini Pay Business SDK a supported banking app has to be installed on the device running
+To pass the requirements for the Gini Health SDK a supported banking app has to be installed on the device running
 your app.
 
 An example banking app is available in the `Gini Pay Bank SDK's <https://github.com/gini/gini-pay-bank-sdk-android>`_
@@ -20,7 +20,7 @@ Development Gini Pay API client credentials
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 In order to test using our example banking app you need to use development client credentials. This will make sure
-the Gini Pay Business SDK uses a test payment provider which will open our example banking app.
+the Gini Health SDK uses a test payment provider which will open our example banking app.
 
 End to end testing
 ------------------
@@ -57,14 +57,14 @@ After you press the ``Pay`` button the Gini Pay Bank SDK resolves the payment an
 
 |
 
-With these steps completed you have verified that your app, the Gini Pay API, the Gini Pay Business SDK and the Gini Pay
+With these steps completed you have verified that your app, the Gini Pay API, the Gini Health SDK and the Gini Pay
 Bank SDK work together correctly.
 
 Testing in production
 ---------------------
 
 The steps are the same but instead of the development client credentials you will need to use production client
-credentials. This will make sure the Gini Pay Business SDK receives real payment providers which open real banking apps.
+credentials. This will make sure the Gini Health SDK receives real payment providers which open real banking apps.
 
 You will also need to install a banking app which uses the Gini Pay Bank SDK. Please contact us in case you don't know
 which banking app(s) to install.
