@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #
-# Commits the javadoc to gini-pay-business-sdk-android's gh-pages branch.
+# Commits the javadoc to gini-health-sdk-android's gh-pages branch.
 #
 # Must be executed from the project root.
 #
@@ -20,7 +20,7 @@ git_user=$1
 git_password=$2
 
 rm -rf gh-pages
-git clone -b gh-pages https://"$git_user":"$git_password"@github.com/gini/gini-pay-business-sdk-android.git gh-pages
+git clone -b gh-pages https://"$git_user":"$git_password"@github.com/gini/gini-health-sdk-android.git gh-pages
 
 rm -rf gh-pages/kdoc
 mkdir -p gh-pages/kdoc
