@@ -1,7 +1,7 @@
 Flow
 ====
 
-GiniBusiness is the main class for interacting with Gini Pay Business SDK.
+``GiniBusiness`` is the main class for interacting with the Gini Health SDK.
 It provides a way to submit a document for reviewing its extracted payment details and
 let's the user make the payment with one of the payment providers.
 
@@ -23,7 +23,7 @@ Setting a document for review
 
 ``setDocumentForReview`` can be called with:
  1. ``Document`` instance in the case the upload was performed with Gini Pay Api lib (see ``Gini`` class).
- 2. Document id, this will probably be the case when there's backend integration between the Business Client and Gini.
+ 2. Document id, this will probably be the case when there's backend integration between the client and Gini.
 
 When calling it with an id the SDK will make a network call to obtain a ``Document`` instance.
 So it is preferred to use the ``Document`` instance if you already have it.

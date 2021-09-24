@@ -7,7 +7,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Testing &mdash; Gini Capture SDK for Android 2.0 documentation</title>
+  <title>Testing &mdash; Gini Health SDK for Android  documentation</title>
   
 
   
@@ -22,7 +22,7 @@
     <script type="text/javascript">
       var DOCUMENTATION_OPTIONS = {
         URL_ROOT:'./',
-        VERSION:'2.0',
+        VERSION:'',
         COLLAPSE_INDEX:false,
         FILE_SUFFIX:'.html',
         HAS_SOURCE:  true
@@ -54,7 +54,7 @@
 
   
         <link rel="search" title="Search" href="search.html"/>
-    <link rel="top" title="Gini Capture SDK for Android 2.0 documentation" href="index.html"/>
+    <link rel="top" title="Gini Health SDK for Android  documentation" href="index.html"/>
         <link rel="next" title="Customization" href="customization.html"/>
         <link rel="prev" title="Flow" href="flow.html"/> 
 
@@ -69,7 +69,9 @@
     
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-nav-search">
-        <a href="index.html" id="gini-logo">gini API</a>
+        <a href="index.html" id="gini-logo">
+          <img src="_static/logo_flat.png" />
+        </a>
         <div role="search">
   <form id ="rtd-search-form" class="wy-form" action="search.html" method="get">
     <input type="text" name="q" placeholder="Search docs" />
@@ -83,7 +85,7 @@
         
         
             <ul class="current">
-<li class="toctree-l1"><a class="reference external" href="http://developer.gini.net/gini-pay-business-sdk-android/kdoc/index.html">Gini Pay Business KDoc</a></li>
+<li class="toctree-l1"><a class="reference external" href="http://developer.gini.net/gini-health-sdk-android/kdoc/index.html">Gini Health SDK KDoc</a></li>
 <li class="toctree-l1"><a class="reference internal" href="setup.html">Getting started</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="setup.html#installation">Installation</a></li>
 <li class="toctree-l2"><a class="reference internal" href="setup.html#gini-pay-deep-link-for-your-app">Gini Pay Deep Link For Your App</a></li>
@@ -108,14 +110,7 @@
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="customization.html">Customization</a></li>
-<li class="toctree-l1"><a class="reference internal" href="license.html">License</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="license.html#licenses-and-acknowledgements-for-incorporated-software">Licenses and Acknowledgements for Incorporated Software</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="license.html#apache-commons-sanselan">Apache Commons Sanselan</a></li>
-<li class="toctree-l3"><a class="reference internal" href="license.html#gini-android-sdk">Gini Android SDK</a></li>
-</ul>
-</li>
-</ul>
-</li>
+<li class="toctree-l1"><a class="reference internal" href="license.html">License</a></li>
 </ul>
 
         
@@ -128,7 +123,7 @@
       
       <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
         <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href="index.html">Gini Capture SDK for Android</a>
+        <a href="index.html">Gini Health SDK for Android</a>
       </nav>
 
 
@@ -154,7 +149,7 @@
 <h2>Requirements<a class="headerlink" href="#requirements" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="example-banking-app">
 <h3>Example banking app<a class="headerlink" href="#example-banking-app" title="Permalink to this headline">¶</a></h3>
-<p>To pass the requirements for the Gini Pay Business SDK a supported banking app has to be installed on the device running
+<p>To pass the requirements for the Gini Health SDK a supported banking app has to be installed on the device running
 your app.</p>
 <p>An example banking app is available in the <a class="reference external" href="https://github.com/gini/gini-pay-bank-sdk-android">Gini Pay Bank SDK’s</a>
 repository called <code class="docutils literal notranslate"><span class="pre">appscreenapi</span></code>.</p>
@@ -164,7 +159,7 @@ specified.</p>
 <div class="section" id="development-gini-pay-api-client-credentials">
 <h3>Development Gini Pay API client credentials<a class="headerlink" href="#development-gini-pay-api-client-credentials" title="Permalink to this headline">¶</a></h3>
 <p>In order to test using our example banking app you need to use development client credentials. This will make sure
-the Gini Pay Business SDK uses a test payment provider which will open our example banking app.</p>
+the Gini Health SDK uses a test payment provider which will open our example banking app.</p>
 </div>
 </div>
 <div class="section" id="end-to-end-testing">
@@ -187,13 +182,13 @@ and verify that <code class="docutils literal notranslate"><span class="pre">Gin
 <div class="line-block">
 <div class="line"><br /></div>
 </div>
-<p>With these steps completed you have verified that your app, the Gini Pay API, the Gini Pay Business SDK and the Gini Pay
+<p>With these steps completed you have verified that your app, the Gini Pay API, the Gini Health SDK and the Gini Pay
 Bank SDK work together correctly.</p>
 </div>
 <div class="section" id="testing-in-production">
 <h2>Testing in production<a class="headerlink" href="#testing-in-production" title="Permalink to this headline">¶</a></h2>
 <p>The steps are the same but instead of the development client credentials you will need to use production client
-credentials. This will make sure the Gini Pay Business SDK receives real payment providers which open real banking apps.</p>
+credentials. This will make sure the Gini Health SDK receives real payment providers which open real banking apps.</p>
 <p>You will also need to install a banking app which uses the Gini Pay Bank SDK. Please contact us in case you don’t know
 which banking app(s) to install.</p>
 <p>Lastly make sure that for production you register the scheme we provided you for deep linking and you are not using
